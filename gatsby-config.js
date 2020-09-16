@@ -15,6 +15,24 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Source Sans Pro",
+              variants: ["200", "300", "400", "900"],
+            },
+            {
+              family: "Source Code Pro",
+              variants: ["400", "700"],
+            },
+          ],
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

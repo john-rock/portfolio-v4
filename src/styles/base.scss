@@ -1,0 +1,12 @@
+@import "./variables";
+@import "./reset";
+
+body {
+    font-family: $webfont;
+    color: #fff;
+    background: $primary-color;
+}
+
+header{
+    margin:0 0 2rem 0;
+}
