@@ -11,6 +11,14 @@ header{
     margin:0 0 2rem 0;
 }
 
+.codebox {
+    font-family: $webfont2;
+    background: $accent-color;
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
 h1{
     text-transform: uppercase;
     font-weight: 900;
