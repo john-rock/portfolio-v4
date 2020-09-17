@@ -16,6 +16,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-transition-link`,
+    {
+      resolve: 'gatsby-v2-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
+    },
     {
       resolve: `gatsby-plugin-webfonts`,
       options: {
