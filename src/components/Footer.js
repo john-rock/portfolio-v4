@@ -23,7 +23,7 @@ const Footer = () => (
         <FaRegEnvelope />
       </a>
     </div>
-    <p>Crafted in Northeast Pennsylvania</p>
+    {/* <p>Built using Gatsby</p> */}
     <p>© {new Date().getFullYear()} John Rock</p>
   </footer>
 )
