@@ -10,9 +10,9 @@ const Codebox = () => {
         <br />
         &emsp;<span>{"const info = {"}</span>
         <br />
-        &emsp;&emsp;<span>{"firstName: 'John',"}</span>
+        &emsp;&emsp;<span>{"firstName: '"}<span class="bold-code">{"John"}</span>{"',"}</span>
         <br />
-        &emsp;&emsp;<span>{"lastName: 'Rock',"}</span>
+        &emsp;&emsp;<span>{"lastName: '"}<span class="bold-code">{"Rock"}</span>{"',"}</span>
         <br />
         &emsp;&emsp;<span>{"title: 'Front End Developer'"}</span>
         <br />
