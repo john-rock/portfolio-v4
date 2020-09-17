@@ -23,13 +23,12 @@ const IndexPage = () => (
               constantly learning new technology. I strive to always find the
               most elegant solution to the constraints that are given.
             </p>
+            <Link className="primary-cta" to="/page-2/">Resume</Link>
           </div>
           <div className="hp-inner">
             <Codebox />
           </div>
         </div>
-        <Link to="/page-2/">Go to page 2</Link> <br />
-        <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
       </>
     </PageTransition>
   </Layout>

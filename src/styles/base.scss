@@ -24,6 +24,22 @@ p{
     font-size: 1.2rem;
 }
 
+.primary-cta{
+    background: $secondary-color;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:900;
+    border-radius: 8px;
+    padding:.5rem 1rem;
+    display: inline-block;
+    margin-top: 1.5rem;
+    transition: all 200ms ease-in;
+    &:hover{
+        background: $accent-color;
+    }
+}
+
 .flex{
     display: flex;
     align-items: center;
@@ -38,7 +54,7 @@ p{
         max-width: 600px;
     }
     &:last-of-type{
-        max-width: 420px;
+        max-width: 460px;
     }
 }
 
@@ -48,8 +64,8 @@ p{
     box-sizing: border-box;
     padding: .5rem;
     border-radius: 8px;
-    width: 420px;
-    height: 350px;
+    width: 460px;
+    height: 390px;
     .bold-code{
         font-weight: 700;
     }

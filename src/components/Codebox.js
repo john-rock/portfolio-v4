@@ -19,13 +19,16 @@ const Codebox = () => {
         &emsp;<span>{"}"}</span>
         <br />
         <br />
+        &emsp;<span>{"const { firstName, lastName, title } = info"}</span>
+        <br />
+        <br />
         &emsp;<span>{"return ("}</span>
         <br />
         &emsp;&emsp;<span>{"<div>"}</span>
         <br />
-        &emsp;&emsp;&emsp;<span>{"<h1>{info.name} {info.lastname}</h1>"}</span>
+        &emsp;&emsp;&emsp;<span>{"<h1>{firstName} {lastName}</h1>"}</span>
         <br />
-        &emsp;&emsp;&emsp;<span>{"<p>{info.title}</p>"}</span>
+        &emsp;&emsp;&emsp;<span>{"<p>{title}</p>"}</span>
         <br />
         &emsp;&emsp;<span>{"</div>"}</span>
         <br />
@@ -50,6 +53,8 @@ export default Codebox
 //         lastName: 'Rock',
 //         title: 'Front End Developer'
 //     }
+
+//      const { firstName, lastName, title } = info
 
 //     return (
 //         <div>
