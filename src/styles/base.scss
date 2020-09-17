@@ -11,21 +11,41 @@ header{
     margin:0 0 2rem 0;
 }
 
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:4rem;
+    line-height: 60px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.hp-inner{
+    flex:0 1 auto;
+    &:first-of-type{
+        max-width: 600px;
+    }
+    &:last-of-type{
+        max-width: 420px;
+    }
+}
+
 .codebox {
     font-family: $webfont2;
     background: $accent-color;
     box-sizing: border-box;
     padding: .5rem;
     border-radius: 8px;
-}
-
-h1{
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size:3rem;
-}
-
-p{
-    font-weight: 300;
-    font-size: 1.2rem;
+    width: 420px;
+    height: 350px;
 }

@@ -5,7 +5,7 @@ import 'react-typist/dist/Typist.css';
 const Codebox = () => {
   return (
     <div className="codebox">
-      <Typist>
+      <Typist stdTypingDelay={20} startDelay={1000}>
         <span>{"const Developer = () => {"}</span>
         <br />
         &emsp;<span>{"const info = {"}</span>
