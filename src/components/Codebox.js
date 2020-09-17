@@ -13,9 +13,50 @@ const Codebox = () => {
         &emsp;&emsp;<span>{"firstName: 'John',"}</span>
         <br />
         &emsp;&emsp;<span>{"lastName: 'Rock',"}</span>
+        <br />
+        &emsp;&emsp;<span>{"title: 'Front End Developer'"}</span>
+        <br />
+        &emsp;<span>{"}"}</span>
+        <br />
+        <br />
+        &emsp;<span>{"return ("}</span>
+        <br />
+        &emsp;&emsp;<span>{"<div>"}</span>
+        <br />
+        &emsp;&emsp;&emsp;<span>{"<h1>{info.name} {info.lastname}</h1>"}</span>
+        <br />
+        &emsp;&emsp;&emsp;<span>{"<p>{info.title}</p>"}</span>
+        <br />
+        &emsp;&emsp;<span>{"</div>"}</span>
+        <br />
+        &emsp;<span>{")"}</span>
+        <br />
+        <span>{"}"}</span>
+        <br />
+        <br />
+        <span>{"export default Developer"}</span>
       </Typist>
     </div>
   )
 }
 
 export default Codebox
+
+
+// const Developer = () => {
+
+//     const info = {
+//         firstName: 'John',
+//         lastName: 'Rock',
+//         title: 'Front End Developer'
+//     }
+
+//     return (
+//         <div>
+//             <h1>{info.firstName} {info.lastName}</h1>
+//             <p>{info.title}</p>
+//         </div>
+//     )
+// }
+
+// export default Developer
