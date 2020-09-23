@@ -66,9 +66,7 @@ p {
 }
 
 // Containers
-.smallContainer{
-  display: flex;
-  flex-direction: column;
+.small-container{
   max-width: 780px;
   width: 100%;
   margin: 0 auto;
@@ -123,6 +121,31 @@ footer {
       &:hover {
         color: $secondary-color;
       }
+    }
+  }
+}
+
+
+// Project styles
+.project-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  a {
+    width: 100%;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 200ms ease-in;
+    padding:1rem;
+    border-radius: 8px;
+    display: block;
+    &:hover{
+      background:$accent-color
+    }
+    .title{
+      font-weight:900;
+      font-size:1.6rem;
     }
   }
 }

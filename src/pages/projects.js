@@ -19,7 +19,7 @@ const ProjectPage = ({
       <PageTransition>
         <h1>Projects</h1>
         <p>Some of the things I have been working on.</p>
-        <div className="smallContainer">
+        <div className="project-container">
           {Project}
         </div>
       </PageTransition>
@@ -35,11 +35,11 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug
             title
+            tags
           }
         }
       }
