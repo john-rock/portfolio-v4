@@ -38,6 +38,7 @@ p {
 
 .main-content {
   flex: 1;
+  margin-top:2rem;
 }
 
 .primary-cta {
@@ -62,6 +63,15 @@ p {
   justify-content: space-between;
   flex-flow: row wrap;
   margin: 4rem auto 6rem;
+}
+
+// Containers
+.smallContainer{
+  display: flex;
+  flex-direction: column;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .hp-inner {
