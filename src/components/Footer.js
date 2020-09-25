@@ -9,6 +9,7 @@ import {
 
 const Footer = () => (
   <footer className="site-foot">
+    <p>© {new Date().getFullYear()} John Rock</p>
     <div className="bottom-social">
       <a href="https://www.linkedin.com/in/john-rock/" target="_blank">
         <FaLinkedinIn />
@@ -24,7 +25,6 @@ const Footer = () => (
       </a>
     </div>
     {/* <p>Built using Gatsby</p> */}
-    <p>© {new Date().getFullYear()} John Rock</p>
   </footer>
 )
 

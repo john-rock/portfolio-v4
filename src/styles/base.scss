@@ -38,7 +38,7 @@ p {
 
 .main-content {
   flex: 1;
-  margin-top:2rem;
+  margin-top: 2rem;
 }
 
 .primary-cta {
@@ -66,7 +66,7 @@ p {
 }
 
 // Containers
-.small-container{
+.small-container {
   max-width: 780px;
   width: 100%;
   margin: 0 auto;
@@ -125,27 +125,45 @@ footer {
   }
 }
 
-
 // Project styles
-.project-container{
+.project-container {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
   a {
     width: 100%;
-    color:#fff;
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     transition: all 200ms ease-in;
-    padding:1rem;
+    padding: 1rem;
     border-radius: 8px;
-    display: block;
-    &:hover{
-      background:$accent-color
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    &:hover {
+      background: $accent-color;
     }
-    .title{
-      font-weight:900;
-      font-size:1.6rem;
+    .title {
+      font-weight: 900;
+      font-size: 1.6rem;
+    }
+  }
+  .tags-container {
+    display: flex;
+    flex-flow: row wrap;
+    .tag {
+      margin: 0.2rem;
+      text-transform: lowercase;
+      font-weight: 300;
+      border: solid rgba($color: #fff, $alpha: .2) 2px;
+      border-radius: 30px;
+      padding: 2px 10px;
+      min-width: 40px;
+      display: block;
+      text-align: center;
+      font-size: 1.1rem;
+      transition: all 200ms ease-in;
     }
   }
 }

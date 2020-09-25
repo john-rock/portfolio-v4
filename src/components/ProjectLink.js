@@ -7,16 +7,12 @@ const ProjectLink = ({ project }) => (
       <span className="title">{project.frontmatter.title}</span>
       {project.frontmatter.tags ? (
         <div className="tags-container">
-          {" "}
-          <ul className="taglist">
-            {" "}
             {project.frontmatter.tags.map(tag => (
-              <li key={tag + `tag`}>
+              <div key={tag + `tag`}>
                 {" "}
                 <span className="tag">{tag}</span>{" "}
-              </li>
+              </div>
             ))}{" "}
-          </ul>{" "}
         </div>
       ) : null}
     </Link>
