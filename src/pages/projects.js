@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import PageTransition from "gatsby-v2-plugin-page-transitions"
 import Layout from "../components/layout"
 import ProjectLink from "../components/ProjectLink"
+import SEO from "../components/seo"
 
 const ProjectPage = ({
   data: {
@@ -16,6 +17,7 @@ const ProjectPage = ({
 
   return (
     <Layout>
+      <SEO title="Projects" />
       <PageTransition>
         <h1>Projects</h1>
         <p>Some of the things I have been working on.</p>

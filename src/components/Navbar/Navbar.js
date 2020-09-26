@@ -19,12 +19,14 @@ const Navigation = styled.nav`
   align-self: center;
 
   @media (max-width: 768px) {
-    position: sticky;
-    height: 8vh;
+    position: fixed;
+    width:100%;
+    height: auto;
     top: 0;
     left: 0;
     right: 0;
     left: 0;
+    background: #16162E;
   }
 `
 
@@ -32,7 +34,9 @@ const Toggle = styled.div`
   display: none;
   height: 100%;
   cursor: pointer;
-  padding: 0 10vw;
+  padding: 1rem;
+  position: relative;
+  top: .5rem;
 
   @media (max-width: 768px) {
     display: flex;
@@ -53,7 +57,7 @@ const Navbox = styled.div`
     padding-top: 10vh;
     background-color: #111;
     transition: all 0.3s ease-in;
-    top: 12vh;
+    top: 10.5vh;
     left: ${props => (props.open ? "-100%" : "0")};
   }
 `

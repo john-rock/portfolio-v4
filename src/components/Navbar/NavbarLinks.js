@@ -22,7 +22,7 @@ const NavItem = styled(Link)`
     right: -6px;
     width: 0%;
     border-radius:50px;
-    background: #FD695A;
+    background: #E92612;
     height: 12px;
     width: 12px;
     transition: all 200ms ease-in;
