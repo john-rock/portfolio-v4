@@ -19,7 +19,7 @@ const Navigation = styled.nav`
   align-self: center;
 
   @media (max-width: 768px) {
-    position: fixed;
+    position: sticky;
     width:100%;
     height: auto;
     top: 0;
@@ -58,7 +58,7 @@ const Navbox = styled.div`
     background-color: #111;
     transition: all 0.3s ease-in;
     top: 10.5vh;
-    left: ${props => (props.open ? "-100%" : "0")};
+    right: ${props => (props.open ? "-100%" : "0")};
   }
 `
 

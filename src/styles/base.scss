@@ -153,6 +153,9 @@ footer {
     &:hover {
       background: $accent-color;
     }
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
     .title {
       font-weight: 900;
       font-size: 1.6rem;

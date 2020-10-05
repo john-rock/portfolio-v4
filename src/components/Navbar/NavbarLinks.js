@@ -18,11 +18,11 @@ const NavItem = styled(Link)`
   :after {
     content: '';
     position: absolute;
-    bottom: 0;
-    right: -6px;
+    bottom: 5px;
+    left: -25px;
     width: 0%;
     border-radius:50px;
-    background: #E92612;
+    background: #FD695A;
     height: 12px;
     width: 12px;
     transition: all 200ms ease-in;
@@ -32,6 +32,7 @@ const NavItem = styled(Link)`
 
   :hover {
     ::after {
+        left: -15px;
         opacity: 1
     }
   }
