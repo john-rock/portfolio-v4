@@ -159,7 +159,13 @@ footer {
     .title {
       font-weight: 900;
       font-size: 1.6rem;
+      line-height: 20px;
     }
+  }
+  .short-desc{
+    font-weight:300;
+    font-size:1rem;
+    text-transform: none;
   }
   .tags-container {
     display: flex;
