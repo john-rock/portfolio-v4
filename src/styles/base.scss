@@ -55,21 +55,23 @@ p {
   display: inline-block;
   margin-top: 1.5rem;
   transition: all 200ms ease-in;
-  svg{
+  svg {
     display: inline-block;
     vertical-align: bottom;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     transition: all 200ms ease-in;
   }
-  &:hover, &:focus, &:active {
+  &:hover,
+  &:focus,
+  &:active {
     background: $accent-color;
     > .back-btn {
-     svg{
-      transform: translateX(-4px);
-     } 
+      svg {
+        transform: translateX(-4px);
+      }
     }
     > .forward-btn {
-      svg{
+      svg {
         transform: translateX(4px);
       }
     }
@@ -110,9 +112,9 @@ p {
   width: 460px;
   height: 390px;
   @media (max-width: 768px) {
-    min-width:90vw;
-    width:100%;
-    height:auto;
+    min-width: 90vw;
+    width: 100%;
+    height: auto;
     margin-top: 2rem;
   }
   .bold-code {
@@ -125,7 +127,7 @@ footer {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top:6rem;
+  margin-top: 6rem;
 
   p {
     margin: 0;
@@ -179,9 +181,9 @@ footer {
       line-height: 20px;
     }
   }
-  .short-desc{
-    font-weight:300;
-    font-size:1rem;
+  .short-desc {
+    font-weight: 300;
+    font-size: 1rem;
     text-transform: none;
   }
   .tags-container {
@@ -191,7 +193,7 @@ footer {
       margin: 0.2rem;
       text-transform: lowercase;
       font-weight: 300;
-      border: solid rgba($color: #fff, $alpha: .2) 1px;
+      border: solid rgba($color: #fff, $alpha: 0.2) 1px;
       border-radius: 30px;
       padding: 2px 10px;
       min-width: 40px;
@@ -202,37 +204,55 @@ footer {
   }
 }
 
-.project-post-container{
-  .project-bar{
+.project-post-container {
+  .project-bar {
     background: $accent-color;
     border-radius: 8px;
     padding: 10px;
     margin: 4rem 0;
   }
-  .project-post-content{
-    max-width:700px;
-    margin:0 auto;
-    p{
-      font-size:1.5rem;
+  .project-post-content {
+    max-width: 700px;
+    margin: 0 auto;
+    p {
+      font-size: 1.5rem;
       line-height: 1.8;
-      margin-top:1.5rem;
+      margin-top: 1.5rem;
     }
   }
-  .sub-btns{
-    max-width:700px;
+  .project-wrapper {
+    background: $primary-color;
+    padding: 0.5rem;
+    position: relative;
+    border-top: solid $secondary-color 4px;
+    max-width: 700px;
     display: block;
-    margin:0 auto;
+    margin: 4rem auto 0;
+    position: relative;
   }
-  blockquote{
+  .btn-container {
+    display: flex;
+    justify-content: space-around;
+    .primary-cta {
+      margin: 0;
+      background: none;
+    }
+  }
+  .sub-btns {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+  }
+  blockquote {
     font-style: italic;
-    margin:1.5rem 1rem 1.5rem 0;
+    margin: 1.5rem 1rem 1.5rem 0;
     padding: 1rem;
     border-left: solid $secondary-color 4px;
-    p{
-      margin:0 !important;
+    p {
+      margin: 0 !important;
     }
   }
-  h1{
+  h1 {
     text-align: center;
   }
 }
