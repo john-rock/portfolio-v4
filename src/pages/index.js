@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Codebox from "../components/Codebox"
+import { FiChevronsRight } from "react-icons/fi"
 
 const IndexPage = () => (
   <Layout>
@@ -23,7 +24,12 @@ const IndexPage = () => (
               constantly learning new technology. I strive to always find the
               most elegant solution for the constraints that are given.
             </p>
-            <Link className="primary-cta" to="/page-2/">Resume</Link>
+            <Link className="primary-cta" to="/page-2/">
+              Resume{" "}
+              <span className="forward-btn">
+                <FiChevronsRight />
+              </span>
+            </Link>
           </div>
           <div className="hp-inner">
             <Codebox />
