@@ -14,11 +14,12 @@ export default function Template({
     <Layout>
       <PageTransition>
       <SEO title={frontmatter.title} />
-        <div className="blog-post-container">
-          <div className="blog-post">
+        <div className="project-post-container">
+          <div className="project-post">
             <h1>{frontmatter.title}</h1>
+            <div className="project-bar">{frontmatter.date}</div>
             <div
-              className="blog-post-content"
+              className="project-post-content"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>

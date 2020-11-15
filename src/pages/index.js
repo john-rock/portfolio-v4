@@ -21,7 +21,7 @@ const IndexPage = () => (
             <p>
               Hi, I’m John. A creative web developer with a passion for
               constantly learning new technology. I strive to always find the
-              most elegant solution to the constraints that are given.
+              most elegant solution for the constraints that are given.
             </p>
             <Link className="primary-cta" to="/page-2/">Resume</Link>
           </div>
