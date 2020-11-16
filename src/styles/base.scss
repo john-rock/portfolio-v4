@@ -211,6 +211,21 @@ footer {
     padding: 10px;
     margin: 4rem 0;
   }
+  .project-post{
+    position: relative;
+  }
+  .svg-dots{
+    position: absolute;
+    top:90px;
+    left:0;
+    color:#fff;
+    opacity: .2;
+    svg{
+      fill: #fff;
+      max-width: 250px;
+      height: auto;
+    }
+  }
   .project-post-content {
     max-width: 700px;
     margin: 0 auto;
@@ -224,30 +239,35 @@ footer {
     background: $primary-color;
     padding: 0.5rem;
     position: relative;
-    border-top: solid $secondary-color 4px;
+    border-top: solid $secondary-color 6px;
     max-width: 700px;
     display: block;
-    margin: 4rem auto 0;
+    margin: 5rem auto 0;
     position: relative;
+    z-index: 9999;
   }
   .btn-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     .primary-cta {
       margin: 0;
       background: none;
+      padding-left:0;
+      svg{
+        color:$secondary-color;
+      }
     }
   }
   .sub-btns {
     max-width: 700px;
     display: block;
-    margin: 0 auto;
+    margin: 2rem auto 0;
   }
   blockquote {
     font-style: italic;
     margin: 1.5rem 1rem 1.5rem 0;
     padding: 1rem;
-    border-left: solid $secondary-color 4px;
+    border-left: solid $accent-color 4px;
     p {
       margin: 0 !important;
     }
